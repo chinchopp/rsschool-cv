@@ -13,6 +13,8 @@ Contacts:
 
 ## About me
 Hi. I am a junior frontend developer. I have experience writing Javascript code, using git version control, adaptive layout, using modern approaches (flex-box, css-grid). My goal is to get theoretical and practical development skills, to take part in interesting projects that will help me develop faster.
+
+
 ***
 
 ## Skills
