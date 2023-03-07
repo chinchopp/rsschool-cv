@@ -1,28 +1,28 @@
-#Alex Pral-Hul
-######Frontend Developer
+# Alex Pral-Hul
+###### Frontend Developer
 ***
 Contacts:
 * Discord:  chinchoppa#6008
 * Telegram: @chinchoppa
 * Email: pralgulalex@gmail.com
 ***
-##About me
+## About me
 ***
-##Skills
+## Skills
 * HTML
 * CSS
 * JavaScript
 * Git
 ***
-##Education
+## Education
 * 2020 - 2024 Belarusian National Technical University
 * 2022 - 2023 RS School JavaScript/Front-end. Stage 0
 ***
-##Languages
+## Languages
 * Russian - Native
 * English - Intermediate
 ***
-##Code example
+## Code example
 ```
 var countBits = function(n) {
   let i = 0
