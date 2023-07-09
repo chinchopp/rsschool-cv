@@ -1,11 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CV</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="header__background"></div>
+            <div class="wrapper">
+                <div class="header__container">
+                    <div class="header__text">
+                        <h1 class="header__tittle"><span class="header__tittle__name">ALEX</span> PRAL-HUL</h1>
+                        <h2 class="header__subtittle">FRONTEND DEVELOPER</h2>
+                    </div>
+                    <img class="header__img" src="./robert1.jpg" alt="photo">
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="wrapper">
+                <div class="main__container">
+                    <div class="left__section">
+                        <div class="about__me">
+                            <h2 class="main__tittle">ABOUT ME</h2>
+                            <div class="short__line"></div>
+                            <p class="about__me__text">I have experience writing Javascript code, using git version control, adaptive layout, using modern approaches (flex-box, css-grid). My goal is to get theoretical and practical development skills, to take part in interesting projects that will help me develop faster</p>
+                        </div>
+                        <div class="contact__info">
+                            <h2 class="main__tittle">CONTACT INFO</h2>
+                            <div class="short__line"></div>
+                            <ul class="contact__info__list">
+                                <li class="contact__info__list__item">Adress <br><span class="contact__info__list__item__text">Minsk, Belarus</span></li>
+                                <li class="contact__info__list__item">Discord <br><span class="contact__info__list__item__text">chinchoppa#6008</span></li>
+                                <li class="contact__info__list__item">Github <br><span class="contact__info__list__item__text">chinchopp</span></li> 
+                            </ul>
+                        </div>
+                        <div class="skills">
+                            <h2 class="main__tittle">MY SKILLS</h2>
+                            <div class="short__line"></div>
+                                <ul class="skills__list">
+                                    <li class="skills__list__item">HTML</li>
+                                    <li class="skills__list__item">CSS</li>
+                                    <li class="skills__list__item">JS</li>
+                                    <li class="skills__list__item">GIT</li>
+                                </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="right__section">
+                        <div class="education__history">
+                            <h2 class="main__tittle">EDUCATION HISTORY</h2>
+                            <div class="long__line"></div>
+                            <ul class="education__list">
+                                <li class="education__list__item">Belarusian National Technical University <br><span class="education__list__item_text">Engineer</span></li>
+                                <li class="education__list__item">RS School JavaScript/Front-end. Stage 0 <br><span class="education__list__item_text">Frontend developer</span></li>
+                            </ul>
+                        </div>
+                        <div class="my__projects">
+                            <h2 class="main__tittle">MY PROJECTS</h2>
+                            <div class="long__line"></div>
+                            <a class="project__tittle" target="_blank" href="https://rolling-scopes-school.github.io/chinchopp-JSFEPRESCHOOL2022Q4/plants/">Plants</a>
+                            <p class="project__subtittle">HTML, CSS, JAVASCRIPT</p>
+                        </div>
+                        <div class="languages">
+                            <h2 class="main__tittle">LANGUAGES</h2>
+                            <div class="long__line"></div>
+                            <ul class="languages__list">
+                                <li class="languages__list__item">Russian - Native</li>
+                                <li class="languages__list__item">English - Intermediate</li>
+                            </ul>
+                        </div>
+                        <div class="my__code">
+                            <h2 class="main__tittle">MY CODE</h2>
+                            <div class="long__line"></div>
+                            <p class="code">var countBits = function(n) {<br>
+                                let i = 0<br>
+                                let number = n.toString(2).split('')<br>
+                                number.forEach((el) => {<br>
+                                  if (el === 1){<br>
+                                    i++<br>
+                                  }<br>
+                                })<br>
+                              return i<br>
+                              };</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="wrapper">
+                <div class="footer__container">
+                    <a href="https://github.com/chinchopp" target="_blank" class="git__link">Github</a>
+                    <p class="year">2023</p>
+                    <a href="https://rs.school/js/" target="_blank" class="rss__logo"><img class="rss__logo__img" src="./rsschool.svg" alt="RSS_LOGO"></a>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
