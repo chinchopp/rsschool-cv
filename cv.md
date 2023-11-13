@@ -46,7 +46,7 @@ Hi. I am a junior frontend developer. I have experience writing Javascript code,
 var countBits = function(n) {
   let i = 0
   let number = n.toString(2).split('')
-  number.forEach((el) => {
+  number.forEach((el) = &gt; {
     if (el == 1){
       i++
     }
